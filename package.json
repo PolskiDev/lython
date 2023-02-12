@@ -1,0 +1,10 @@
+{
+  "name": "lython",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Gabriel Margarido",
+  "license": "BSD 2-Clause",
+  "dependencies": {
+    "pkg": "^5.8.0"
+  }
+}

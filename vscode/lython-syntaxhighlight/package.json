@@ -1,0 +1,25 @@
+{
+    "name": "lython3",
+    "displayName": "Lython 3",
+    "description": "Lython Programming Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ly3",
+            "aliases": ["Lython", "ly3"],
+            "extensions": [".ly3"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ly3",
+            "scopeName": "source.ly3",
+            "path": "./syntaxes/ly3.tmLanguage.json"
+        }]
+    }
+}

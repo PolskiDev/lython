@@ -1,0 +1,27 @@
+algorithm
+    class Motorbike do
+        function constructor(this) do
+            print("Vruuum")
+        end
+    end
+
+    class Car < Motorbike do
+        function constructor(this) do
+            print("Roooom")
+        end
+    end
+
+    class Bus < (Car, Motorbike) do
+        function constructor(this) do
+            print("Vroooom")
+        end
+    end
+
+
+
+    function main()
+        @new yamaha : Motorbike()
+        @new hyundai : Car()
+        @new mercedesbenz : Bus()
+    end
+endalgorithm

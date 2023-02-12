@@ -1,0 +1,41 @@
+algorithm
+    @include_only os
+    @include tkinter
+    function main()
+        os.system("ls")
+        print("Hello world")
+        @new window : Tk()
+
+        mathematical b = "1+(23)/4+(4*5)"
+        float c = nil
+        int age = 13
+        if (age > 3) do
+            print("Three")
+            @new window : Tk()
+        elseif (age is 4) do
+            print("Four")
+        else
+            print("Another")
+        end
+
+        # "while (True) do"
+        #    "print("Doing")"
+        # "end"
+
+        5 times do
+            String __index = str(i)
+            print("Hey "+__index)
+            @new window : Tk()
+        end
+
+        try
+            print("1st")
+        catch
+            print("2nd")
+        finally
+            print("3rd")
+        end
+
+
+    end
+endalgorithm
